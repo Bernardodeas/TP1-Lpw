@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=IBM+Plex+Mono:ital@1&display=swap');
+
+html {
+    min-height: max-content;
+}
+
+body {
+    background-image: url(Img/bgIRON.jpg);
+    padding: 7px;
+}
+
+
+div {
+    width: fit-content;
+    padding: 7px;
+    margin: 20px;
+}
+div[class*="Standard"]{
+    background-image: url(Img/Steel2.png);
+}
+div[class*="Handnote"]
+{
+    line-height: 1.5;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 25px;
+    background-image: url(Img/paper.jpg);
+}
+
+div[class*="Detail"]
+{
+    float: right;
+}
