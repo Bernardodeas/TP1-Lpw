@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=IBM+Plex+Mono:ital@1&display=swap');
-
+@import url('https://fonts.google.com/specimen/Ubuntu+Mono?preview.text=AaBbCcDdEeFfGgHhIiJjKkLl&preview.text_type=custom&category=Monospace');
+@font-face {
+    font-family: Montserrat;
+    src: url(fonte/Montserrat-VariableFont_wght.eot)
+         url(fonte/Montserrat-VariableFont_wght.otf)
+         url(fonte/Montserrat-VariableFont_wght.ttf)
+         url(fonte/Montserrat-VariableFont_wght.woff);
+}
 html {
     min-height: max-content;
 }
@@ -7,18 +14,24 @@ html {
 body {
     background-image: url(Img/bgIRON.jpg);
     padding: 7px;
+    font-family: "Montserrat", sans-serif;
 }
-
-
-main {
+body h1, h2, h3, h4{
+    font-family: "Ubuntu Mono", sans-serif;
+} 
+body img{
+    height: 50px;
+    width: auto;
+}
+section {
     width: fit-content;
     padding: 7px;
     margin: 20px;
 }
-div[class*="Standard"]{
+main section{
     background-image: url(Img/Steel2.png);
 }
-div[class*="Handnote"]
+section[class*="Handnote"]
 {
     line-height: 1.5;
     font-family: 'Delicious Handrawn', cursive;
@@ -26,7 +39,22 @@ div[class*="Handnote"]
     background-image: url(Img/paper.jpg);
 }
 
-div[class*="Detail"]
-{
+aside{    
+    text-align: center;
     float: right;
+    padding-top: 20px;
+    padding-right: 35px; padding-left: 35px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+    width: 405px;
+    box-sizing: border-box;
+    border: 2px solid darkgreen;
+    margin-top: 0px;
+}
+footer{
+    background-color: darkolivegreen;
+    padding: 15px;
+}
+p{
+    font-family: ;
 }
