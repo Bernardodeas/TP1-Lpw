@@ -12,28 +12,32 @@ html {
 }
 
 body {
-    background-image: url(img/Style/bgIRON.jpg);
+    background-image: url(img/bodyBackground.jpeg);
     padding: 7px;
     font-family: "Montserrat", sans-serif;
 }
 header{
     background-color: black;
-    background-image: url(img/Style/headerBG.png);
+    background-image: url(img/headerBG.png);
     background-size:cover;
     background-repeat: no-repeat;
+    padding-left: 10px; padding-right: 10px;
+    padding-top: 5px; 
 }
 header h1{
     width: 100%;
     color: white;
     display: flex;
     justify-content: center;
+    padding-bottom: 25px;
 }
 header ul{
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    list-style-type:none;
-    background-image: url(img/Style/Steel3.png);
+    list-style-type: none;
+    padding-bottom: 5px;
+    
 }
 header ul a{
     color: rgb(101, 160, 101);
@@ -49,16 +53,20 @@ body img{
     width: auto;
 }
 section {
-    max-width: 70%;
+    max-width: 50%;
     width: fit-content;
     padding: 7px;
     margin: 20px;
 }
+#introducao{
+    max-width: 100%;
+}
 main section{
-    background: url(img/Style/dark\ steel\ plate\,\ background.jpg) repeat fixed center;
+    background: url(img/dark\ steel\ plate\,\ background.jpg) repeat fixed center;
     border: 10px solid transparent;
     padding: 15px;
-    border-image: url(img/Style/border.png) 30 stretch;
+    border-image: url(img/border.png) 30 stretch;
+    background-color:rgb(145, 138, 138)
 }
 
 aside{    
@@ -74,6 +82,7 @@ aside{
     margin-left: auto;
 }
 footer{
+    border: 5px double rgb(2, 31, 2);
     background-color: darkolivegreen;
     padding: 15px;
 }
