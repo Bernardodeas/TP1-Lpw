@@ -7,6 +7,10 @@
          url(fonte/Montserrat-VariableFont_wght.ttf)
          url(fonte/Montserrat-VariableFont_wght.woff);
 }
+.exercicio{}
+
+
+.exercicio img{ clear: right;}
 html {
     min-height: max-content;
 }
