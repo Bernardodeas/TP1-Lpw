@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=IBM+Plex+Mono:ital@1&display=swap');
+@import url('https://fonts.google.com/specimen/Ubuntu+Mono?preview.text=AaBbCcDdEeFfGgHhIiJjKkLl&preview.text_type=custom&category=Monospace');
+@font-face {
+    font-family: Montserrat;
+    src: url(fonte/Montserrat-VariableFont_wght.eot)
+         url(fonte/Montserrat-VariableFont_wght.otf)
+         url(fonte/Montserrat-VariableFont_wght.ttf)
+         url(fonte/Montserrat-VariableFont_wght.woff);
+}
+.exercicio img{ clear: right;}
+html {
+    min-height: max-content;
+}
+@media screen and (max-width: 700px ) {
+    ul{
+    margin-top: 10vh;
+    bottom: 0px;
+
+    aside{
+        width: 0.4vw;
+    }
+}
+}
+body {
+    background-image: url(img/bodyBackground.jpeg);
+    padding: 7px;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color: black;
+    background-image: url(img/Steel3.png);
+    padding-left: 4.5vw; padding-right: 4.5vw;
+    padding-top: 5px; 
+    position: relative;
+    min-height: 20vh;
+}
+.HeaderBG{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 7vw;
+    right: 7vw;    
+}
+.HeaderBaseline{
+    position: absolute;
+    background-image: url(img/dark\ steel\ plate\,\ background.jpg);
+    min-height: 2.5rem;
+    top: 75%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header h1{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    font-size: 2.5vw;
+}
+header ul{
+    bottom: 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-bottom: 5px;    
+}
+header ul a{
+    color: rgb(100, 160, 100);
+    text-decoration: none;
+    font-family: "Ubuntu Mono", sans-serif;
+    font-weight: bolder;
+}
+body h1, h2, h3, h4{
+    font-family: "Ubuntu Mono", sans-serif;
+} 
+body img{
+    height: 50px;
+    width: auto;
+}
+section {
+    width: 55%;
+    min-width: 0.2vw;
+    padding: 7px;
+    margin: 20px;
+}
+#introducao{
+    width: 90%;
+    max-width: fit-content;
+    min-height: 25ex;
+}
+main section{
+    background: url(img/Steel3.png) center;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(img/border.png) 30 stretch;
+    background-color:rgb(145, 138, 138)
+}
+
+aside{    
+    color: white;
+    text-align: center;
+    float: right;
+    padding: 20px 35px 35px 30px;
+    margin-right: 20px;
+    max-width: 405px;
+    min-width: min-content;
+    border: 2px solid darkgreen;
+    background-color: black;
+    margin-left: auto;
+    margin-top: 25px;
+}
+footer{
+    border: 5px double rgb(2, 31, 2);
+    background-color: darkolivegreen;
+    padding: 15px;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    font-size: 1.8vw;
+}
+
+.HideRespostas{
+    background-color: black;
+}
