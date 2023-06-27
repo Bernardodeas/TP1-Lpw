@@ -1,6 +1,11 @@
-function ShowAwns(){
+/*function ShowAwns(){
     var x = document.getElementsByClassName("HideRespostas");
     var y = document.getElementsByClassName("Resps");
-    x.style.display = "none";
+    element.classList.remove ('HideRespostas')
     y.style.display = "block";
+}*/
+const maionese = document.querySelector('#resposta');
+maionese.classList.add('HideResposta');
+function ShowAwns(){
+maionese.classList.remove('HideRespostas');
 }
